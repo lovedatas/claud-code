@@ -1,0 +1,5 @@
+This recovered source snapshot does not include the original ultraplan prompt.
+
+Do not continue with remote planning automatically.
+Instead, explain that the ultraplan feature is unavailable in this recovered build
+and ask the operator to use the packaged CLI runtime or restore the original source files.
