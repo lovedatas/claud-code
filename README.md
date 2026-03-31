@@ -12,13 +12,33 @@ Claude Code is an agentic coding tool that lives in your terminal, understands y
 
 ## Get started
 
-1. Install Claude Code:
+### Install Claude Code from npm
 
 ```sh
 npm install -g @anthropic-ai/claude-code
 ```
 
-2. Navigate to your project directory and run `claude`.
+Then navigate to your project directory and run `claude`.
+
+### Run this repository from source
+
+If you want to run this source snapshot directly, use Bun:
+
+```sh
+bun install
+bun entrypoints/cli.tsx
+```
+
+Helpful checks:
+
+```sh
+bun entrypoints/cli.tsx --help
+bun entrypoints/cli.tsx --version
+```
+
+### Local run preview
+
+![Claude Code running from source](./docs/run-preview.png)
 
 ## Reporting Bugs
 
